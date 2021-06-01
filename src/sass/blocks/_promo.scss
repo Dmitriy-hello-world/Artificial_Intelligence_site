@@ -1,0 +1,56 @@
+.promo {
+    position: relative;
+    z-index: 1;
+    background: #08101E;
+    padding: 50px 0 100px 0;
+
+    &__main {
+        width: 605px;
+        margin-top: 110px;
+    }
+
+    &__subheader {
+        font-weight: 600;
+        font-size: 18px;
+        text-transform: uppercase;
+        color: #3A68B8;
+        margin: 0;
+    }
+
+    &__header {
+        margin: 15px 0 0 0;
+        font-weight: 800;
+        font-size: 52px;
+        line-height: 65px;
+        color: #FFFFFF;
+    }
+
+    &__text {
+        margin-top: 40px;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 26px;
+        opacity: 0.7;
+    }
+
+    &__btns {
+        margin-top: 65px;
+    }
+
+    &__start-btn {
+        margin-right: 20px;
+    }
+
+    &__img {
+        position: absolute;
+        z-index: -1;
+        right: 0;
+        top: 50px;
+    }
+
+    &__logos {
+        margin-top: 200px;
+        display: flex;
+        justify-content: space-between;
+    }
+}
