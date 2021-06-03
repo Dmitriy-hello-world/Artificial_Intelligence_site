@@ -1,0 +1,33 @@
+.apply {
+    background: url('../img/apply_brain.png') 20% no-repeat #020A18;
+    min-height: 970px;
+    position: relative;
+
+    &__wrapper {
+        width: 484px;
+        position: absolute;
+        left: 52%;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    &__header {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 40px;
+        line-height: 130%;
+    }
+
+    &__text {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 160%;
+        opacity: 0.7;
+        margin-top: 30px;
+    }
+
+    &__btn {
+        margin-top: 50px;
+    }
+}

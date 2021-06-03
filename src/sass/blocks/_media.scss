@@ -18,6 +18,12 @@
             }
         }
     }
+
+    .apply {
+        &__wrapper {
+            left: 46%;
+        }
+    }
 }
 
 @media(max-width: 991px) {
@@ -44,6 +50,15 @@
             img {
                 width: 150px;
             }
+        }
+    }
+
+    .apply {
+
+        background-position: -175px;
+
+        &__wrapper {
+            left: 32%;
         }
     }
 }
@@ -94,6 +109,15 @@
 
         &__img {
             transform: translateX(62%);
+        }
+    }
+
+    .apply {
+        min-height: 670px;
+        background-position: 175px;
+
+        &__wrapper {
+            left: 10%;
         }
     }
 }
@@ -160,6 +184,24 @@
 
         &__logos {
             margin-top: 50px;
+        }
+    }
+
+    .apply {
+        min-height: 460px;
+        background-position: 80px;
+
+        &__wrapper {
+            width: 300px;
+            left: 5%;
+        }
+
+        &__header {
+            font-size: 28px;
+        }
+
+        &__text {
+            font-size: 14px;
         }
     }
 }
