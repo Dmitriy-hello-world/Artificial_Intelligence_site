@@ -1,8 +1,8 @@
 .promo {
     position: relative;
-    z-index: 1;
-    background: #08101E;
     padding: 50px 0 100px 0;
+    background: url('../img/promo_rocket.png') right no-repeat #08101E;
+    background-position-y: 50px;
 
     &__main {
         width: 605px;
@@ -39,13 +39,6 @@
 
     &__start-btn {
         margin-right: 20px;
-    }
-
-    &__img {
-        position: absolute;
-        z-index: -1;
-        right: 0;
-        top: 50px;
     }
 
     &__logos {
