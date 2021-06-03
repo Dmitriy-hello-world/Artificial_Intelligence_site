@@ -1,0 +1,49 @@
+.cards {
+    background: #020A18;
+
+    &__inner {
+        display: flex;
+        justify-content: center;
+    }
+
+    &__wrapper {
+        display: grid;
+        grid-template-columns: repeat(3, auto);
+        grid-template-rows: repeat(2, auto);
+        gap: 30px;
+        grid-auto-rows: auto;
+    }
+
+    &__item {
+        padding: 50px 30px 30px 30px;
+        width: 362px;
+        min-height: 390px;
+        background: #0F1724;
+        justify-self: center;
+    }
+
+    &__header {
+        margin-top: 45px;
+        font-weight: bold;
+        font-size: 25px;
+        line-height: 125%;
+        text-align: center;
+        opacity: 0.7;
+    }
+
+    &__text {
+        margin-top: 30px;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 160%;
+        text-align: center;
+        opacity: 0.7;
+    }
+
+    &__img {
+        display: block;
+        margin: 0 auto;
+    }
+
+}
