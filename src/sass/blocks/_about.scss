@@ -1,0 +1,25 @@
+.about {
+    background: url('../img/about.png') 80% no-repeat #020A18;
+    min-height: 800px;
+    position: relative;
+    padding: 215px 50px;
+
+    &__wrapper {
+        width: 584px;
+    }
+
+    &__header {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 40px;
+        line-height: 130%;
+    }
+
+    &__text {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 160%;
+        opacity: .7;
+    }
+}
